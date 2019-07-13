@@ -24,7 +24,7 @@ public class about_alc extends AppCompatActivity {
 
         webView = findViewById(R.id.webView);
 
-        webView.loadUrl("https://www.andela.com/alc/");
+        webView.loadUrl("https://andela.com/alc/");
         webView.setWebViewClient(new WebViewClient());
         WebSettings webSettings = webView.getSettings();
         webView.clearCache(true);
