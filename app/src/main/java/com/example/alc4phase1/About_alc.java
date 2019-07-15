@@ -14,7 +14,7 @@ import android.net.http.SslError;
 public class About_alc extends AppCompatActivity {
 
      private WebView webView;
-     
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

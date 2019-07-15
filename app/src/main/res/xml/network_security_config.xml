@@ -3,7 +3,7 @@
     <domain-config>
         <domain includeSubdomains="true">andela.com</domain>
         <trust-anchors>
-            <certificates src="@raw/ui"/>
+            <certificates src="@raw/uc"/>
         </trust-anchors>
     </domain-config>
 </network-security-config>
