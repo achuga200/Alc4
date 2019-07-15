@@ -12,10 +12,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".profile_activity"
+        <activity android:name=".Profile_activity"
             android:label="@string/my_profile"
             android:parentActivityName=".MainActivity"/>
-        <activity android:name=".about_alc"
+        <activity android:name=".About_alc"
             android:label="@string/about_alc"
             android:parentActivityName=".MainActivity"/>
         <activity android:name=".MainActivity">

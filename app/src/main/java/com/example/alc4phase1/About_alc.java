@@ -11,7 +11,7 @@ import android.webkit.SslErrorHandler;
 import android.net.http.SslError;
 
 
-public class about_alc extends AppCompatActivity {
+public class About_alc extends AppCompatActivity {
 
      private WebView webView;
      Handler handler;
@@ -33,10 +33,6 @@ public class about_alc extends AppCompatActivity {
 
         }
 
-
-    /*public boolean shouldOverrideUrlLoading(WebView view, String url) {
-        return super.shouldOverrideUrlLoading(view, url);
-    }*/
     @Override
     public void onBackPressed() {
         if (webView.canGoBack()) {

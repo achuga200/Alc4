@@ -18,13 +18,13 @@ public class MainActivity extends AppCompatActivity {
         button =  findViewById(R.id.my_profile_button);
     }
     public void about(View view) {
-        Intent aboutAlc = new Intent(MainActivity.this, about_alc.class);
+        Intent aboutAlc = new Intent(MainActivity.this, About_alc.class);
         startActivity(aboutAlc);
 
     }
 
     public void profile(View view) {
-        Intent intent = new Intent(MainActivity.this, profile_activity.class);
+        Intent intent = new Intent(MainActivity.this, Profile_activity.class);
         startActivity(intent);
     }
 }
